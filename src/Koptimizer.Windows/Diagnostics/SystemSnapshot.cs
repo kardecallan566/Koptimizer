@@ -1,0 +1,2 @@
+namespace Koptimizer.Windows.Diagnostics;
+public sealed record SystemSnapshot(string OperatingSystem,string Architecture,int LogicalProcessors,ulong TotalPhysicalMemoryBytes,ulong AvailablePhysicalMemoryBytes,int RunningProcessCount,DateTimeOffset CapturedAt) { public double MemoryUsagePercent => TotalPhysicalMemoryBytes == 0 ? 0 : 100d*(TotalPhysicalMemoryBytes-AvailablePhysicalMemoryBytes)/TotalPhysicalMemoryBytes; }

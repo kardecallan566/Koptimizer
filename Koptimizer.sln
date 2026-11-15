@@ -1,0 +1,41 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koptimizer.Core", "src\Koptimizer.Core\Koptimizer.Core.csproj", "{4A9B00B1-AD10-4E8A-A72C-4C5E4D101001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koptimizer.Windows", "src\Koptimizer.Windows\Koptimizer.Windows.csproj", "{4A9B00B1-AD10-4E8A-A72C-4C5E4D101002}"
+EndProject
+Project("{60DC8134-EBA5-43B8-BCC9-BB4BC16C2548}") = "Koptimizer.App", "src\Koptimizer.App\Koptimizer.App.csproj", "{4A9B00B1-AD10-4E8A-A72C-4C5E4D101003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koptimizer.Gaming", "src\Koptimizer.Gaming\Koptimizer.Gaming.csproj", "{4A9B00B1-AD10-4E8A-A72C-4C5E4D101004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koptimizer.LocalAI", "src\Koptimizer.LocalAI\Koptimizer.LocalAI.csproj", "{4A9B00B1-AD10-4E8A-A72C-4C5E4D101005}"
+EndProject
+Global
+ GlobalSection(SolutionConfigurationPlatforms) = preSolution
+  Debug|Any CPU = Debug|Any CPU
+  Release|Any CPU = Release|Any CPU
+ EndGlobalSection
+ GlobalSection(ProjectConfigurationPlatforms) = postSolution
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101001}.Release|Any CPU.Build.0 = Release|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101002}.Release|Any CPU.Build.0 = Release|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101003}.Release|Any CPU.Build.0 = Release|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+  {4A9B00B1-AD10-4E8A-A72C-4C5E4D101005}.Release|Any CPU.Build.0 = Release|Any CPU
+ EndGlobalSection
+EndGlobal
